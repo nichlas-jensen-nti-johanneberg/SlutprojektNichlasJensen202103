@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Wallpapers {
+    width: 50px;
+}
+.Bild1 {
+    width: 100%;
+    
+}
+.Bild2 {
+    width: 100%;
+}
+.Bild3 {
+    width: 100%;
+}
+.Bild4 {
+    width: 100%;
+}
+.Bild5 {
+    width: 100%;
+}
+.Bild6 {
+    width: 100%;
+}
+img {
+    width: 100%;
+}
+.header {
+height: 100px;
+width: 100%;
+background-color: gray;
+}
+@media only screen and (max-width:767px) {
+    .Bild1, .Bild2, .Bild3, .Bild4, .Bild5, .Bild6 {
+        width: 100%;
+    }
+    .WP1, .WP2, .WP3 {
+        width: 100%;
+    }
+    .nav1, .nav2, .nav3 {
+        width: 100%;
+    }
+    .WP1 {
+        display: grid;
+        height: 200vh;
+        width: 100vw;
+        grid-template-areas: 
+        "h1"
+        "n1"
+        "s1"
+        "s2"
+        "s3"
+        "s4"
+        "s5"
+        "s6"
+    ;
+    grid-template-columns:100%;
+    grid-template-rows: 5% 5% 15% 15% 15% 15% 15% 15%;
+    grid-gap: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    }
+    .WP2 {
+        display: grid;
+        height: 200vh;
+        width: 100vw;
+        grid-template-areas: 
+        "h2"
+        "n2"
+        "s7"
+        "s8"
+        "s9"
+        "s10"
+        "s11"
+        "s12"
+    ;
+    grid-template-columns:100%;
+    grid-template-rows: 5% 5% 15% 15% 15% 15% 15% 15%;
+    grid-gap: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    }
+    .WP3 {
+        display: grid;
+        height: 200vh;
+        width: 100vw;
+        grid-template-areas: 
+        "h3"
+        "n3"
+        "s13"
+        "s14"
+        "s15"
+        "s16"
+        "s17"
+        "s18"
+    ;
+    grid-template-columns:100%;
+    grid-template-rows: 5% 5%  15% 15% 15% 15% 15% 15%;
+    grid-gap: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    }
+}
+
+
+    @media only screen and (min-width: 1024px) {
+    .Bild1 , .Bild3 , .Bild5 {
+        width: 50%;
+        float: left;    
+    }
+    .Bild2, .Bild4, .Bild6 {
+        width: 50%;
+        float: right;
+    }
+    .WP1 {
+        display: grid;
+        height: 200vh;
+        width: 100vw;
+        grid-template-areas: 
+        "h1 h1"
+        "n1 n1"
+        "s1 s2"
+        "s3 s4"
+        "s5 s6"
+    ;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 5% 5% 30% 30% 30%;
+    grid-gap: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    }
+    .WP2 {
+        display: grid;
+        height: 200vh;
+        width: 100vw;
+        grid-template-areas: 
+        "h2 h2"
+        "n2 n2"
+        "s7 s8"
+        "s9 s10"
+        "s11 s12"
+    ;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 5% 5% 30% 30% 30%;
+    grid-gap: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    }
+    .WP3 {
+        display: grid;
+        height: 200vh;
+        width: 100vw;
+        grid-template-areas: 
+        "h3 h3"
+        "n3 n3"
+        "s13 s14"
+        "s15 s16"
+        "s17 s18"
+    ;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 5% 5% 30% 30% 30%;
+    grid-gap: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+        
+
+}
+
+}
+    
+
+
+.header3 {
+    grid-area: h3;
+    background-color: green;
+}
+.nav3 {
+    grid-area: n3;
+    background-color:greenyellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.section13 {
+    grid-area: s13;
+    background-color: lime;
+    font-size: large;
+}
+.section14 {
+    grid-area: s14;
+    background-color: lime;
+    font-size: large;
+}
+.section15 {
+    grid-area: s15;
+    background-color: lime;
+    font-size: large;
+}
+.section16 {
+    grid-area: s16;
+    background-color: lime;
+    font-size: large;
+}
+.section17 {
+    grid-area: s17;
+    background-color: lime;
+    font-size: large;
+}
+.section18 {
+    grid-area: s18;
+    background-color: lime;
+    font-size: large;
+}
+
+.header1 {
+    grid-area: h1;
+    background-color:tan;
+}
+.nav1 {
+    grid-area: n1;
+    background-color:burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.section1 {
+    grid-area: s1;
+    background-color: chocolate;
+    font-size: large;
+}
+.section2 {
+    grid-area: s2;
+    background-color: chocolate;
+    font-size: large;
+}
+.section3 {
+    grid-area: s3;
+    background-color: chocolate;
+    font-size: large;
+}
+.section4 {
+    grid-area: s4;
+    background-color: chocolate;
+    font-size: large;
+}
+.section5 {
+    grid-area: s5;
+    background-color: chocolate;
+}
+.section6 {
+    grid-area: s6;
+    background-color: chocolate;
+    font-size: large;
+}
+
+
+
+.header2 {
+    grid-area: h2;
+    background-color: blue;
+}
+.nav2 {
+    grid-area: n2;
+    background-color:skyblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section7 {
+    grid-area: s7;
+    background-color: turquoise;
+    font-size: large;
+}
+.section8 {
+    grid-area: s8;
+    background-color: turquoise;
+    font-size: large;
+}
+.section9 {
+    grid-area: s9;
+    background-color: turquoise;
+    font-size: large;
+}
+.section10 {
+    grid-area: s10;
+    background-color: turquoise;
+    font-size: large;
+}
+.section11 {
+    grid-area: s11;
+    background-color: turquoise;
+    font-size: large;
+}
+.section12 {
+    grid-area: s12;
+    background-color: turquoise;
+    font-size: large;
+}
+
+.button1 {
+    border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.button2 {
+    border: none;
+    color:tan;
+    background-color: brown;
+    padding: 15px 15px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.button3 {
+    border: none;
+    color: white;
+    background-color:aqua;
+    padding: 15px 15px;
+    text-align: center;
+    text-emphasis-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.button4 {
+    border: none;
+    color: brown;
+    background-color:darkgreen;
+    padding: 15px 15px;
+    text-align: center;
+    text-emphasis-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
